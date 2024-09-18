@@ -4,8 +4,8 @@ import 'package:wavid/common/style/color.dart';
 import 'package:wavid/common/style/text_styles.dart';
 import 'package:wavid/presentation/view_model/numpad_provider.dart';
 
-class EnteredNumber extends ConsumerWidget {
-  const EnteredNumber({super.key});
+class EnteredPinNumber extends ConsumerWidget {
+  const EnteredPinNumber({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

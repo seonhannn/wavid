@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:wavid/common/style/color.dart';
 import 'package:wavid/common/style/text_styles.dart';
 import 'package:wavid/presentation/view/widgets/bottom_button.dart';
-import 'package:wavid/presentation/view/widgets/entered_number.dart';
+import 'package:wavid/presentation/view/widgets/entered_pin_number.dart';
 import 'package:wavid/presentation/view/widgets/numpad.dart';
 import 'package:wavid/resources/resources.dart';
 
@@ -54,7 +54,7 @@ class EnterPinNumberPage extends StatelessWidget {
                       ),
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 60),
-                        child: EnteredNumber(),
+                        child: EnteredPinNumber(),
                       ),
                       Numpad(onTap: () {}, onBackButtonTap: () {})
                     ]))));
