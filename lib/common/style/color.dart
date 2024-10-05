@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class WColors {
   static const Color backgroundColor = Color(0xFF0E1113);
+  static const Color bottomSheetColor = Color(0xFF1C1C22);
   static const Color black = Color(0xFF11161B);
   static const Color gray = Color(0xFF767676);
   static const Color red = Color(0xFFFF7070);
